@@ -34,7 +34,7 @@ describe('Scenarios where authentication is a pre-condition', () => {
   })
 
   describe('Scenarios where authentication is a pre-condition', () => {
-    it.only('logs out', () => {
+    it('logs out', () => {
       cy.visit('/')
       cy.wait('@getNotes')
 
