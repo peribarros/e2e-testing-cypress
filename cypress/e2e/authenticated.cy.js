@@ -33,21 +33,19 @@ describe('Scenarios where authentication is a pre-condition', () => {
       .should('be.equal', 'Complete')
   })
 
-  describe('Scenarios where authentication is a pre-condition', () => {
-    it('logs out', () => {
-      cy.visit('/')
-      cy.wait('@getNotes')
+  it('logs out', () => {
+    cy.visit('/')
+    cy.wait('@getNotes')
 
-      if (Cypress.config('viewportWidth') < Cypress.env('viewportWidthBreakpoint')) {
-        cy.get('.navbar-toggle.collapsed')
-          .should('be.visible')
-          .click()
-      }
+    if (Cypress.config('viewportWidth') < Cypress.env('viewportWidthBreakpoint')) {
+      cy.get('.navbar-toggle.collapsed')
+        .should('be.visible')
+        .click()
+    }
 
-      cy.contains('.nav a', 'Logout').click()
+    cy.contains('.nav a', 'Logout').click()
 
-      cy.get('#email').should('be.visible')
-    })
+    cy.get('#email').should('be.visible')
   })
 
 })
