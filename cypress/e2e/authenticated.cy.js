@@ -1,5 +1,3 @@
-// cypress/e2e/authenticated.cy.js
-
 import { faker } from '@faker-js/faker/locale/en'
 
 describe('Scenarios where authentication is a pre-condition', () => {
@@ -44,7 +42,7 @@ describe('Scenarios where authentication is a pre-condition', () => {
         cy.get('.navbar-toggle.collapsed')
           .should('be.visible')
           .click()
-      }      
+      }
 
       cy.contains('.nav a', 'Logout').click()
 
