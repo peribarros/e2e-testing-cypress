@@ -40,6 +40,22 @@ Run `npm run cy:open` to open the __Cypress App__ to run tests in interactive mo
 
 Run `npm run cy:open:tablet` to open the __Cypress App__ to run tests in interactive mode using a tablet viewport.
 
+## Project description
+
+Análise estática no código de teste para garantir o uso de convenções definidas pela comunidade ✔️
+Testes e2e para diferentes funcionalidades de na aplicação Scratch App, tais como Sign up, Login, CRUD, etc. ✔️
+Testar recebimento de e-mails ✔️
+Testar upload de arquivos ✔️
+Interagir com componentes renderizados dentro de iFrames ✔️
+Interceptar requisições para tornar os testes mais robustos ✔️
+Proteger dados sensíveis ✔️
+Testar a responsividade da aplicação simulando seu uso em um dispositivo móvel ✔️
+Armazenar a sessão do usuário no cache para otimizar o processo de autenticação ✔️
+Criar e documentar comandos customizados ✔️
+Configurar um workflow de integração contínua com múltiplas fases e paralelização ✔️
+Integrar os testes com o Cypress Cloud ([visite aqui](https://cloud.cypress.io/projects/7rhrye))✔️
+Categorizar os testes e executá-los por suas tags ✔️
+
 ___
 
 Made with ❤️ by [Peri Barros](https://github.com/peribarros).
