@@ -1,7 +1,7 @@
 {
   "name": "e2e-cypress",
   "version": "1.0.0",
-  "description": "TBD.",
+  "description": "Project to demonstrate end-to-end (e2e) tests in [Scratch App](https://notes-serverless-app.com) written with [Cypress](https://cypress.io) running on GitHub Actions.",
   "main": "cypress.config.js",
   "scripts": {
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
